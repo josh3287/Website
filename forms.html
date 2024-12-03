@@ -10,14 +10,48 @@
     <form action="/tacos">
         <p>
         <label for="Username">Enter your first name</label>
-        <input id="Username" type="text" placeholder="First Name">
+        <input id="Username" type="text" placeholder="First Name" name = "Username">
         </p>
         <p>
         <label for="Password">Enter password</label>
-        <input id= "Password" type="password" placeholder="Password">
+        <input id= "Password" type="password" placeholder="Password" name = "password">
         <input type="color">
         <button>Submit</button>
+        </form>
+    <form action="https://www.google.com/search">
+        <input type="text" name="q">
+        <button>Search YouTube</button>
     </form>
-    
+
+    <h2>More Inputs!</h2>
+    <form action="/birds">
+        <input type="checkbox" name="agree to tos" id = "agree">
+        <label for="agree">I agree to everthing</label>
+        <p>
+            <label for="gender">I am a human</label>
+            <input type="radio" name= "size" id="gender" value="gender">
+            <input type="radio" name= "size">
+            <input type="radio" name= "size">
+        </p>
+        <p>
+            <label for="location">Select where you would like to travel</label>
+            <select name="Location" id="location">
+                <option value="Select" selected>Select a Location</option>
+                <option value="Spain">Spain</option>
+                <option value="Brazile">Brazil</option>
+            </select>
+        </p>
+        <p>
+            <label for="happiness">How happy are you? </label>
+            <br>
+            <input type="range" id="happiness" min="1" max="10" name="happiness level">
+        </p>
+        <button>Submit</button>
+        <p>
+            <label for="story">Tell me your story</label>
+            <br>
+            <textarea name="" id="story" rows="11" cols="40" placeholder="Type here"></textarea>
+        </p>
+    </form>
 </body>
 </html>
