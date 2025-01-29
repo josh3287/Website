@@ -51,6 +51,14 @@
             <label for="story">Tell me your story</label>
             <br>
             <textarea name="" id="story" rows="11" cols="40" placeholder="Type here"></textarea>
+            <h2>Validations Demo</h2>
+            <form action="/dummy">
+                <label for="first"> Enter First Name</label>
+                <input type="text" name="first" id="first" required>
+                <label for="Username">Username</label>
+                <input type="text" id="username" name="username" minlength="7" required>
+                <button>Submit</button>
+            </form>
         </p>
     </form>
 </body>
